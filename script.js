@@ -37,4 +37,5 @@ document.getElementById("letrasErradas").textContent = letrasErradas.join(", ");
 exibirPalavra();
 
 if (tentativas === 0) {
-  document.getElementById(",mensagem")
+  document.getElementById(",mensagem").textContent = "boaaa, ce adivinhou a palavra!";
+}
